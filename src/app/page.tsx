@@ -17,7 +17,7 @@ export default function Home() {
         </figure>
         <div className='card-body'>
           <h2 className="card-title justify-center">
-            <Link href='/Admin'>Admin</Link>
+            <Link href='/adminLogin'>Admin</Link>
           </h2>
           
         </div>

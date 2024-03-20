@@ -14,8 +14,13 @@ const studentSchema = new Schema({
         trim:true
     },
     password:{
-        require:[true,"Password field is required"],
+        require:false,
         type:Schema.Types.String
+    },
+    role:{
+        require:false,
+        type:Schema.Types.String,
+        default:"Student"
     }
 });
 

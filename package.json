@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@phosphor-icons/react": "^2.0.15",
     "@vinejs/vine": "^1.8.0",
     "axios": "^1.6.8",
     "bcryptjs": "^2.4.3",
